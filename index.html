@@ -1,38 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-<title>Demian | Video Editor</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demian | Video Editor & Motion Designer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav>
-<h2>Demian</h2>
-<a href="index.html">Home</a>
-<a href="short-form.html">Short Form</a>
-<a href="long-form.html">Long Form</a>
-<a href="motion-design.html">Motion Design</a>
-</nav>
+    <!-- Шапка с именем и навигацией ниже имени -->
+    <header class="header">
+        <div class="brand">
+            <h2 class="logo-name">Demian</h2>
+            <p class="logo-sub">Video Editor & Motion Designer</p>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-btn active">Home</a>
+            <a href="short-form.html" class="nav-btn">Short Form</a>
+            <a href="long-form.html" class="nav-btn">Long Form</a>
+            <a href="motion-design.html" class="nav-btn">Motion Design</a>
+        </nav>
+    </header>
 
+    <main>
+        <!-- Главный баннер с анимацией текста -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="animated-text">Hi, I'm Demian</h1>
+                <p class="fade-in-text">I create engaging edits with motion graphics, visual effects, smooth transitions, and sound design. Using After Effects and Premiere Pro, I turn ideas into high-quality visual content.</p>
+                <a href="#about" class="cta-btn">Learn More ↓</a>
+            </div>
+        </section>
 
-<section class="hero">
+        <!-- Описание о себе -->
+        <section id="about" class="content-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-card">
+                <p>Specializing in dynamic videos for YouTube, TikTok, and social media. Whether you need viral short clips, structured long-form content, or high-end motion graphics, I bring creative vision and technical precision to every project.</p>
+            </div>
+        </section>
 
-<h1>Hi, I'm Demian</h1>
+        <!-- Раздел с видео и проектами -->
+        <section id="projects" class="content-section">
+            <h2 class="section-title">Featured Works</h2>
+            
+            <div class="projects-grid">
+                <!-- Short Form Card -->
+                <div class="project-card">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶</div>
+                        <span>Short Form Video Preview</span>
+                    </div>
+                    <h3>Short Form Content</h3>
+                    <p>TikTok, Reels, and Shorts designed for high retention and engagement.</p>
+                    <a href="short-form.html" class="card-link">View Shorts →</a>
+                </div>
 
-<h2>Video Editor & Motion Designer</h2>
+                <!-- Long Form Card -->
+                <div class="project-card">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶</div>
+                        <span>Long Form Video Preview</span>
+                    </div>
+                    <h3>Long Form Content</h3>
+                    <p>YouTube videos, storytelling, dynamic pacing, and clean sound mixing.</p>
+                    <a href="long-form.html" class="card-link">View YouTube Works →</a>
+                </div>
 
-<p>
-I create dynamic videos for YouTube, TikTok and social media.
-Specialized in engaging editing, motion graphics, visual effects and sound design.
-</p>
+                <!-- Motion Design Card -->
+                <div class="project-card">
+                    <div class="video-placeholder">
+                        <div class="play-icon">▶</div>
+                        <span>Motion Graphics Preview</span>
+                    </div>
+                    <h3>Motion Design</h3>
+                    <p>After Effects animations, VFX, titles, logo reveals, and custom assets.</p>
+                    <a href="motion-design.html" class="card-link">View Motion Graphics →</a>
+                </div>
+            </div>
+        </section>
 
-<a class="button" href="short-form.html">
-View My Work
-</a>
+        <!-- Навыки -->
+        <section class="content-section">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-flex">
+                <span class="skill-tag">Adobe Premiere Pro</span>
+                <span class="skill-tag">Adobe After Effects</span>
+                <span class="skill-tag">Sound Design</span>
+                <span class="skill-tag">Color Grading</span>
+                <span class="skill-tag">VFX & Transitions</span>
+                <span class="skill-tag">Motion Graphics</span>
+            </div>
+        </section>
+    </main>
 
-</section>
-
+    <footer class="footer">
+        <p>© Demian — Video Editor & Motion Designer</p>
+    </footer>
 
 </body>
 </html>
