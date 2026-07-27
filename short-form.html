@@ -1,40 +1,53 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="ru">
 <head>
-<title>Short Form Content</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Short Form Content | Demian</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav>
-<h2>Demian</h2>
-<a href="index.html">Home</a>
-<a href="short-form.html">Short Form</a>
-<a href="long-form.html">Long Form</a>
-<a href="motion-design.html">Motion Design</a>
-</nav>
+    <header class="header">
+        <div class="brand">
+            <h2 class="logo-name">Demian</h2>
+            <p class="logo-sub">Video Editor & Motion Designer</p>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="short-form.html" class="nav-btn active">Short Form</a>
+            <a href="long-form.html" class="nav-btn">Long Form</a>
+            <a href="motion-design.html" class="nav-btn">Motion Design</a>
+        </nav>
+    </header>
 
+    <main class="content-section">
+        <h1 class="animated-text">Short Form Content</h1>
+        <p class="fade-in-text">TikToks, Instagram Reels, YouTube Shorts</p>
 
-<section>
+        <div class="projects-grid" style="margin-top: 40px;">
+            <div class="project-card">
+                <div class="video-placeholder" style="height: 300px;">
+                    <div class="play-icon">▶</div>
+                    <span>Reels / TikTok Clip 1</span>
+                </div>
+                <h3>Dynamic Reel Edit</h3>
+                <p>Fast pacing, captions, and sound effects for viral reach.</p>
+            </div>
+            <div class="project-card">
+                <div class="video-placeholder" style="height: 300px;">
+                    <div class="play-icon">▶</div>
+                    <span>Reels / TikTok Clip 2</span>
+                </div>
+                <h3>Shorts Motion Graphics</h3>
+                <p>Engaging pop-up graphics and animated text overlays.</p>
+            </div>
+        </div>
+    </main>
 
-<h1>Short Form Content</h1>
-
-<p>
-TikTok, Instagram Reels and YouTube Shorts editing.
-Fast paced cuts, captions, effects and retention-focused editing.
-</p>
-
-
-<div class="video">
-<video controls>
-<source src="videos/short1.mp4">
-</video>
-</div>
-
-
-</section>
+    <footer class="footer">
+        <p>© Demian — Video Editor & Motion Designer</p>
+    </footer>
 
 </body>
 </html>
