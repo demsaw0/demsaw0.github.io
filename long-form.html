@@ -25,30 +25,33 @@
         <h1 class="animated-text">Long Form Content</h1>
         <p class="fade-in-text">YouTube Videos, Documentaries, and Essays</p>
 
-        <div class="longform-grid">
-            <!-- Первое видео 1920x1080 -->
-            <div class="longform-card">
-                <div class="longform-video-container">
-                    <video controls preload="metadata">
+        <!-- Сетка из двух аккуратных карточек -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; margin-top: 40px;">
+            
+            <!-- Первая карточка (lf1.mp4) -->
+            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 460px; max-width: 100%; box-sizing: border-box;">
+                <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
+                    <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
                         <source src="lf1.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео.
                     </video>
                 </div>
-                <h3>Video Essay Editing</h3>
-                <p>Pacing, color correction, storytelling, and background music arrangement.</p>
+                <h3 style="margin: 0 0 8px 0; color: #fff;">Video Essay Editing</h3>
+                <p style="margin: 0; color: #aaa; font-size: 14px;">Pacing, color correction, storytelling, and background music arrangement.</p>
             </div>
 
-            <!-- Второе видео 1920x1080 -->
-            <div class="longform-card">
-                <div class="longform-video-container">
-                    <video controls preload="metadata">
+            <!-- Вторая карточка (lf2.mp4) -->
+            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 460px; max-width: 100%; box-sizing: border-box;">
+                <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
+                    <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
                         <source src="lf2.mp4" type="video/mp4">
                         Ваш браузер не поддерживает видео.
                     </video>
                 </div>
-                <h3>Gaming / Vlog Edit</h3>
-                <p>High-energy cuts, sound design, and comedic timing.</p>
+                <h3 style="margin: 0 0 8px 0; color: #fff;">Gaming / Vlog Edit</h3>
+                <p style="margin: 0; color: #aaa; font-size: 14px;">High-energy cuts, sound design, and comedic timing.</p>
             </div>
+
         </div>
     </main>
 
