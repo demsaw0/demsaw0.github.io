@@ -24,54 +24,59 @@
     <main class="content-section">
         <h1 class="animated-text">Featured Works</h1>
 
-        <!-- Сетка карточек на главной -->
-        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 24px; margin-top: 30px;">
+        <!-- Общая сетка для главной -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: stretch; gap: 24px; margin-top: 30px;">
             
-            <!-- 1. Short Form Card -->
-            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 340px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
+            <!-- 1. Вертикальная карточка Short Form (Shorts1.mp4) -->
+            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 280px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
                 <div>
-                    <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
+                    <div style="width: 100%; aspect-ratio: 9 / 16; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
                         <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                            <source src="reel4.mp4#t=0.5" type="video/mp4">
+                            <source src="Shorts1.mp4#t=0.5" type="video/mp4">
                         </video>
                     </div>
                     <h3 style="margin: 0 0 8px 0; color: #fff;">Short Form Content</h3>
-                    <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">TikTok, Reels, and Shorts designed for high retention and engagement.</p>
+                    <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">TikTok, Reels, and Shorts designed for high retention.</p>
                 </div>
                 <a href="short-form.html" style="color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;">View Shorts →</a>
             </div>
 
-            <!-- 2. Long Form Card -->
-            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 340px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
-                <div>
-                    <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
-                        <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                            <source src="lf1.mp4#t=0.5" type="video/mp4">
-                        </video>
+            <!-- Правая колонка для горизонтальных видео -->
+            <div style="display: flex; flex-direction: column; gap: 24px; width: 440px; max-width: 100%;">
+                
+                <!-- 2. Horizontal Long Form Card -->
+                <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                    <div>
+                        <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
+                            <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                                <source src="lf1.mp4#t=0.5" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3 style="margin: 0 0 8px 0; color: #fff;">Long Form Content</h3>
+                        <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">YouTube videos, storytelling, dynamic pacing, and clean sound mixing.</p>
                     </div>
-                    <h3 style="margin: 0 0 8px 0; color: #fff;">Long Form Content</h3>
-                    <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">YouTube videos, storytelling, dynamic pacing, and clean sound mixing.</p>
+                    <a href="long-form.html" style="color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;">View YouTube Works →</a>
                 </div>
-                <a href="long-form.html" style="color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;">View YouTube Works →</a>
-            </div>
 
-            <!-- 3. Motion Design Card -->
-            <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; width: 340px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between;">
-                <div>
-                    <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
-                        <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
-                            <source src="ga.mp4#t=0.5" type="video/mp4">
-                        </video>
+                <!-- 3. Horizontal Motion Design Card -->
+                <div style="background: #141414; border: 1px solid #222; border-radius: 16px; padding: 16px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                    <div>
+                        <div style="width: 100%; aspect-ratio: 16 / 9; border-radius: 10px; overflow: hidden; background: #000; margin-bottom: 12px;">
+                            <video controls preload="metadata" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                                <source src="ga.mp4#t=0.5" type="video/mp4">
+                            </video>
+                        </div>
+                        <h3 style="margin: 0 0 8px 0; color: #fff;">Motion Design</h3>
+                        <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">After Effects animations, VFX, typography, camera moves, and UI assets.</p>
                     </div>
-                    <h3 style="margin: 0 0 8px 0; color: #fff;">Motion Design</h3>
-                    <p style="margin: 0 0 16px 0; color: #aaa; font-size: 14px;">After Effects animations, VFX, titles, camera moves, and custom UI assets.</p>
+                    <a href="motion-design.html" style="color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;">View Motion Graphics →</a>
                 </div>
-                <a href="motion-design.html" style="color: #fff; text-decoration: none; font-weight: 600; font-size: 14px;">View Motion Graphics →</a>
+
             </div>
 
         </div>
 
-        <!-- Секция скиллов (оставляем твою нижнюю часть) -->
+        <!-- Секция скиллов -->
         <div style="margin-top: 60px;">
             <h2 class="animated-text" style="font-size: 24px;">Skills & Tools</h2>
             <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 15px;">
